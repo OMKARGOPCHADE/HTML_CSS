@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Red Rose", cursive;
+    font-size: 1.6rem;
+    background-color: #2b2922;
+    color: #fff;
+    height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  .navbar{
+    display: flex;
+    max-width: 120rem;
+    height: 20%;
+    margin: 30px;
+  }
+  .navbar img{
+    max-width: 55%;
+    max-height: 10vh;
+  }
+  .list{
+    position: relative;
+    left: 15rem;
+    font-size: 1.2rem;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    list-style: none;   
+    color: rgba(255, 255, 255, 0.534);
+  }
+  .list li:hover {
+    color: #fff;
+  }
+  .button-small{
+    padding: 0.8rem 2.8rem;
+    font-size: 1.2rem;
+    background-color: #2b2922;
+    border: 1px solid #a77b06;
+    border-radius: 7px;
+    color: #a77b06;
+  }
+  .button-small:hover{
+    background-color: #a77b06;
+    color: #fff;
+  }
+  .hero{
+    display:flex;
+    max-width: 120rem;
+    margin: 25px;
+  }
+  .hero-heading{
+    font-size: 4.6rem;
+    font-weight: bold;
+    width: 120rem;
+    max-width: 55%;
+    font-family: "Dela Gothic One", cursive;
+  }
+  .hero-subheading{
+    position: relative;
+    top: 30px;
+    left:10px;
+    max-width: 34%;
+    font-weight: 200;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ffffff88;
+  }
+  .hero-image{
+    height: 40vh;
+    background-image: url('./assets/pexels-ekaterina-bolovtsova-6077326.jpg');
+    background-size: cover;
+    background-position: center;
+    /* max-width: 120rem; */
+  }
+  .hero-image img{
+    display: block;
+    width: 100%;
+    height: 0.0rem;
+  }

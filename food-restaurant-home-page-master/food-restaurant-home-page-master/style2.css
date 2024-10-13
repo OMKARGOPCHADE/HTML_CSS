@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+html{
+    font-size: 60%;
+}
+body{
+    line-height: 1.5;
+    min-height: 100vh;
+    background-image: linear-gradient(
+        rgba(3, 32, 60, 0.74),
+        rgba(3, 32, 60, 0.753)
+      ),
+      url(./assets/bgc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgb(207, 186, 158);
+}
+.container{
+    max-width: 120em;
+    margin: 0 auto;
+    padding: 0 0.5% 0 0.5%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+}
+.logo{
+    position: relative;
+    left: 10px;
+    width: 12.6rem;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    color: #e8bd0d;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0 0.9 0 0.9 0;
+}
+.button-small{
+    padding: 0.6rem 2.8rem;
+    font-size: 1.1rem;
+    background-color: #e6425e;
+    color: #fff;
+    border: none; 
+    font-weight: bold;
+    margin-right: 10px;
+}
+.hero{
+    max-width: 125rem;
+    color: #e8bd0d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+    align-items: center;
+}
+.hero-heading{
+    color: #f4be2c;
+    font-family: "Dela Gothic One", cursive;
+    font-size: 7.2rem;
+    max-width: 90%;
+    line-height: 0.9;
+    font-weight: bold;
+    margin-bottom: 2.3rem;
+}
+.button-large{
+    padding: 0.6rem 1.8rem;
+    font-size: 1.1rem;
+    background-color: #e6425e;
+    color: #fff;
+    border: none; 
+    font-weight: bold;
+    margin-right: 10px;
+}
+.bottom{
+    align-self: flex-end;
+}
+.bottom img{
+    max-width: 35%;
+}
