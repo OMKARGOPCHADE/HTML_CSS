@@ -4,7 +4,7 @@ This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"*
 <br>
 <br>
 
-## 📌 **Live Site URL:** <a href="#">**Visit Now** 🚀</a>
+## 📌 **Live Site URL:** <a href="https://omkargopchade.github.io/HTML_CSS/law-home-page-master/law-home-page-master/index.html">**Visit Now** 🚀</a>
 
 <br>
 
