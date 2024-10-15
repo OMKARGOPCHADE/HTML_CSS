@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    margin: auto;
+    overflow: hidden;
+}
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+nav .logo{
+    width: 120px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 29px;
+    font-weight: 600;
+    color: #2F363F;
+    font-size: 15px;
+}
+nav ul li:hover{
+    color: #45CE30;
+}
+/* Hero Section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+main section{
+    width: 50%;
+}
+.Left-Section
+{
+    margin-left: 5%;
+    position: relative;
+}
+.top-Angle{
+    width: 20px;
+}
+.Left-Section h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.Left-Section p{
+    color: #808080;
+    font-size: 10px;
+    margin: 20px 0;
+}
+.bottom-Angle{
+    width: 20px;
+    position: absolute;
+    right: 18px;
+}
+.stethoscope
+{
+    position: absolute;
+    width: 80%;
+    top: 60px;
+    right: -25px;
+    z-index: -1;
+}
+.mouse{
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    width: 30px;
+}
+.Left-Section button{
+    color: white;
+    background-color: #1BCA9B;
+    border: none;
+    border-radius: 40px;
+    font-weight: 600;
+    padding: 10px 37px;
+    font-size: 18px;
+}
+.Left-Section button:hover{
+    background-color: #DAE0E2;
+    color: #2C3335;
+}
+/* Right section */
+.yellowBox, .greenBox
+{
+    position: absolute;
+    right: 0;
+}
+.greenBox{
+    width: 35%;
+    bottom: 18px;
+}
+.yellowBox{
+    width: 32%;
+    bottom: 18px;
+}
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
